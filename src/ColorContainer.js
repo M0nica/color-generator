@@ -35,7 +35,7 @@ const getRandomHex = (arr) => {
   return arr[Math.floor( Math.random() * arr.length )];
 }
 
-export default class MamaContainer extends Component {
+export default class ColorContainer extends Component {
   constructor(props) {
   	super(props);
   	this.state = { currentColor: getRandomHex(listOfHexs)}
